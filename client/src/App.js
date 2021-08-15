@@ -52,15 +52,15 @@ class App extends Component {
     }
     return (
       <div className="App">
-         <h1>Capuccino Token for StarDucks</h1>
+         <h1>Town Script</h1>
 
       <h2>Enable your account</h2>
       Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
       <button type="button" onClick={this.handleKycSubmit}>Add Address to Whitelist</button>
-      <h2>Buy Cappucino-Tokens</h2>
+      <h2>Buy Town Script</h2>
       <p>Send Ether to this address: {this.state.tokenSaleAddress}</p>
       <p>You have: {this.state.userTokens}</p>
-        <button type="button" onClick={this.handleBuyToken}>Buy more tokens</button>
+        <button type="button" onClick={this.handleBuyToken}>Buy more script</button>
       </div>
     );
   }
